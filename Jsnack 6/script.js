@@ -9,5 +9,6 @@ let cubo = parseInt(prompt("inserisci un numero per il cubo"));
 const userNumber = cubo
 for(i = 0; i < 3; i++){
 cubo = cubo * userNumber;
-console.log(cubo, i)
+console.log(cubo, i);
+document.querySelector('body').innerHTML += `<div>${cubo}</div>`
 }
