@@ -13,10 +13,10 @@ let limit = false;
 const array = [];
 while (!limit){
     if(somma > 1000){
-        limit = true
+        limit = true;
     }else{
-        somma = somma * potenza;
         console.log(somma);
+        somma = somma * potenza;
         array.push(somma);
 
     }
